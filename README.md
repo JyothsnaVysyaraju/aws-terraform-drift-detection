@@ -103,6 +103,9 @@ schedule:
 
 # To destroy the cloud services:
 
+🧹 Cleanup
+terraform destroy -auto-approve
+
 its a good practice to destroy the aws servies to save cost:
 
 <img width="2510" height="1145" alt="image" src="https://github.com/user-attachments/assets/5fb83e72-82e1-42df-8683-2f8ccbd5964b" />
@@ -126,6 +129,5 @@ Workflow not running	Enable workflow in Actions tab
 Apply fails	Check AWS credentials & IAM permissions
 State lock error	terraform force-unlock <LOCK_ID>
 
-🧹 Cleanup
-terraform destroy -auto-approve
+
 
